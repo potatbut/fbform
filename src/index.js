@@ -1,5 +1,5 @@
 
-// import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
 import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
 
 const firebaseConfig = {
@@ -13,6 +13,7 @@ const firebaseConfig = {
   measurementId: "G-9R0YQQM2N5"
 };
 
+const app = initializeApp(firebaseConfig)
 
 const form = document.getElementById('form')
 
