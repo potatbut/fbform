@@ -14,8 +14,11 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig)
+const data = getDatabase(app)
+const list = ref(data, 'users')
 
 const form = document.getElementById('form')
+
 
 form.addEventListener('submit', submit)
 
@@ -37,8 +40,7 @@ function getValue(id) {
 }
 
 function saveData(firstName, lastName, email, phone, cb1, cb2, select) {
-  const data = getDatabase()
-  const list = ref(data, 'users')
+  
   const newList = push(list)
   set(newList, {
     firstName: firstName,
@@ -46,6 +48,7 @@ function saveData(firstName, lastName, email, phone, cb1, cb2, select) {
     email: email,
     phone: phone, 
     cb1: cb1, 
-    cb2: cb2
+    cb2: cb2,
+    select: select
   })
 }
