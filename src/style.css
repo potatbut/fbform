@@ -150,11 +150,11 @@ body {
 }
 
 .form_wrapper input[type="submit"]:hover {
-  background: #e1a70a;
+  background: #e10ac4;
 }
 
 .form_wrapper input[type="submit"]:focus {
-  background: #e1a70a;
+  background: #e10ac4;
 }
 
 .form_wrapper input[type="checkbox"],
