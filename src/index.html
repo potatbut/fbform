@@ -24,10 +24,10 @@
           <form id="form">
             <div class="column_wrapper">
               <div class="input_field">
-                <input id="firstName" type="text" name="name" placeholder="First Name" required />
+                <input id="firstName" type="text" name="name" placeholder="First Name" onkeypress="return event.charCode != 32" required />
               </div>
               <div class="input_field">
-                <input id="lastName" type="text" name="name" placeholder="Last Name" required />
+                <input id="lastName" type="text" name="name" placeholder="Last Name"  required/>
               </div>
             </div>
 
@@ -46,11 +46,11 @@
               <div class="select_arrow"></div>
             </div>
             <div class="input_field checkbox_option">
-              <input type="checkbox" id="cb1" required>
+              <input type="checkbox" id="cb1" >
               <label for="cb1">I agree with terms and conditions</label>
             </div>
             <div class="input_field checkbox_option">
-              <input type="checkbox" id="cb2" required>
+              <input type="checkbox" id="cb2" >
               <label for="cb2">I want to receive the newsletter</label>
             </div>
             <input class="button" type="submit" value="Submit" />
