@@ -1,7 +1,5 @@
-const {
-  createClient
-} = supabase
-supabase = createClient('https://zekxnjqyoqwigjfoviae.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inpla3huanF5b3F3aWdqZm92aWFlIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY0NjIyMjQyOCwiZXhwIjoxOTYxNzk4NDI4fQ.9jL-ZWSIQ1gGNy856BUtabmUuCElAlQlgoSxHpTJQwc')
+const { createClient } = supabase
+supabase = createClient('https://zekxnjqyoqwigjfoviae.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inpla3huanF5b3F3aWdqZm92aWFlIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDYyMjI0MjgsImV4cCI6MTk2MTc5ODQyOH0.WCLE_H13GPEAVyEAjc_N9_pPpYMz-cyea1dG2TjgcYw')
 
 
 const subForm = document.getElementById('form')
