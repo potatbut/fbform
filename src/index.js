@@ -49,6 +49,13 @@ function submit(e) {
   const cb2 = getValue('cb2')
   const select = getValue('select')
   saveData(firstName, lastName, email, phone, cb1, cb2, select, smth)
+
+  
+  document.querySelector('.alert').style.display = "block"
+  setTimeout(function() {
+    document.querySelector('.alert').style.display = "none"
+  }, 4000)
+  document.getElementById('form').reset()
 }
 
 function getValue(id) {
@@ -59,9 +66,9 @@ function getValue(id) {
 function saveData(firstName, lastName, email, phone, cb1, cb2, select, smth) {
 
 
-const userid = testWord(firstName)
+  const userid = testWord(firstName)
 
- const userInfo = {
+  const userInfo = {
     firstName: firstName,
     lastName: lastName,
     email: email,
@@ -91,6 +98,7 @@ const userid = testWord(firstName)
     select: select,
     smth: smth
   }) */
+
 }
 
 

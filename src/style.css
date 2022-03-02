@@ -317,6 +317,14 @@ body {
   color: #e1a70a;
 }
 
+.alert {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(128, 230, 128);
+  display: none;
+}
+
 @media (max-width: 600px) {
   .form_wrapper .col_half {
     width: 100%;
