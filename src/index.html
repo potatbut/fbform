@@ -9,60 +9,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Any</title>
+  <title>Main page</title>
 </head>
 
 <body>
 
   <div class="form_wrapper">
-    <div class="form_container">
-      <div class="title_container">
-        <h2>Responsive Registration Form</h2>
-        <div class="alert">Contacts accepted</div>
-      </div>
-      <div class="row ">
-        <div>
-          <form id="form">
-            <div class="column_wrapper">
-              <div class="input_field">
-                <input id="firstName" type="text" name="name" placeholder="First Name" onkeypress="return event.charCode != 32" required />
-              </div>
-              <div class="input_field">
-                <input id="lastName" type="text" name="name" placeholder="Last Name"  />
-              </div>
-            </div>
-
-            <div class="input_field">
-              <input id="email" type="email" name="email" placeholder="Email"  />
-            </div>
-            <div class="input_field">
-              <input id="phone" type="phone" name="phone" placeholder="Phone"  />
-            </div>
-            <div class="input_field select_option">
-              <select id="select">
-                <option>Select a country</option>
-                <option>Option 1</option>
-                <option>Option 2</option>
-              </select>
-              <div class="select_arrow"></div>
-            </div>
-            <div class="input_field checkbox_option">
-              <input type="checkbox" id="cb1" >
-              <label for="cb1">I agree with terms and conditions</label>
-            </div>
-            <div class="input_field checkbox_option">
-              <input type="checkbox" id="cb2" >
-              <label for="cb2">I want to receive the newsletter</label>
-            </div>
-            
-            <input class="button" type="submit" value="Submit" />
-          </form>
-        </div>
-      </div>
-    </div>
+    <ul>
+      <li><a href="firebase.html">Firebase form</a></li>
+      <li><a href="supabase.html">Supabase form</a></li>
+    </ul>
   </div>
 
-  <script type="module" src="index.js"></script>
 
 </body>
 

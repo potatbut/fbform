@@ -55,7 +55,7 @@ function submit(e) {
   setTimeout(function() {
     document.querySelector('.alert').style.display = "none"
   }, 4000)
-  document.getElementById('form').reset()
+  form.reset()
 }
 
 function getValue(id) {

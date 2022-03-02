@@ -317,12 +317,38 @@ body {
   color: #e1a70a;
 }
 
-.alert {
+.alert, .error {
   color: #fff;
   text-align: center;
   padding: 10px;
-  background-color: rgb(128, 230, 128);
   display: none;
+  margin-bottom: 10px;
+}
+
+.alert {
+  background-color: rgb(128, 230, 128);
+}
+
+.error {
+  background-color: rgb(230, 128, 128);
+}
+
+ul li, ul li a {
+  font-size: 40px;
+  color: #af89ac;
+}
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:visited {
+  color: #898aaf;
+}
+
+
+ul li:hover {
+  opacity: 0.7;
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
