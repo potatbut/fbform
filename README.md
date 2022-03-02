@@ -1,9 +1,8 @@
 ## Contact form with Firebase
 
-## [Demo](https://potatbut.github.io/fbform/src/ "Demo")
-___
+ [Demo👁️‍🗨️ ](https://potatbut.github.io/fbform/src/ "Demo")
 
-### Base structure
+### Base structure  
 
 + users
     + user1
